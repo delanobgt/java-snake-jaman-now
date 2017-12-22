@@ -7,6 +7,7 @@ public class MainFrame extends JFrame {
     private MainPanel mainPanel;
     
     public MainFrame() {
+        super("Snake Jaman Now");
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainPanel = new MainPanel();
